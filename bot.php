@@ -10,7 +10,7 @@ function MQTT_send($topic,$text){
 }
 
 $access_token = 'l+XJmEK4S3PQW9NQRGhnqFff7WmFj9k2MMMGrif2EsWALWh+cn6URu3l0dEjpphbjHyk3013gsq/wgEp5lMBQhWtUsPK0D8VbmjlBOg4W4ST9ipMQ8EuW7HAZVHglPn4OIDbufKT2VEkKTet+n5lKgdB04t89/1O/w1cDnyilFU=';
-
+var_dump($_REQUEST);
 // Get POST body content
 $content = file_get_contents('php://input');
 // Parse JSON
