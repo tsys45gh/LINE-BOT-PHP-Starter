@@ -48,7 +48,7 @@ if (!is_null($events['events'])) {
 
 	}
 }
-// MQTT_send("/svnh/fco","test");
+MQTT_send("/svnh/fco","test");
 echo "That's right\n";
 
 ?>
