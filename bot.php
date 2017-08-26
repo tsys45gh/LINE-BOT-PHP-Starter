@@ -13,9 +13,11 @@ $access_token = 'l+XJmEK4S3PQW9NQRGhnqFff7WmFj9k2MMMGrif2EsWALWh+cn6URu3l0dEjpph
 //var_dump($_REQUEST);
 // Get POST body content
 $content = file_get_contents('php://input');
+
+echo $content;
 // Parse JSON
 $events = json_decode($content, true);
-print_r($event);
+//print_r($event);
 $replyToken = $event['replyToken'];
 
 // Validate parsed JSON data
