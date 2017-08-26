@@ -49,7 +49,7 @@ if (!is_null($events['events'])) {
 
 	}
 }
-MQTT_send("/svnh/fco",json_encode($event));
+MQTT_send("/svnh/fco",json_decode($event));
 echo "That's right\n";
 
 ?>
