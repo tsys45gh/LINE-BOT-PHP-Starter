@@ -15,7 +15,7 @@ var_dump($_REQUEST);
 $content = file_get_contents('php://input');
 // Parse JSON
 $events = json_decode($content, true);
-var_dump($event);
+print_r($event);
 $replyToken = $event['replyToken'];
 
 // Validate parsed JSON data
